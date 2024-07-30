@@ -1,0 +1,15 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/WA.Api/bin/Debug/net8.0
+/.vs/wa-lanchonete_clean_api
+/WA.Api/obj
+/WA.Application/bin/Debug/net8.0
+/WA.Application/obj
+/WA.Domain/bin/Debug/net8.0
+/WA.Domain/obj
+/WA.Persistence/bin/Debug/net8.0
+/WA.Persistence/obj
+/WA.UnitTest/bin/Debug/net8.0
+/WA.UnitTest/obj
