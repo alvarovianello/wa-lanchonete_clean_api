@@ -45,7 +45,7 @@ Ainda conectado no Pgadmin após configurado o Banco;
  - Acesse a pasta WA.Persistence e copie o conteúdo do arquivo "DDL", no qual possui o script do banco de dados.
 
 Siga os passos do gif abaixo para executar o script copiado do arquivo "DDL":
-![App Screenshot]([https://github.com/alvarovianello/wa-lanchonete_clean_api/blob/main/Config%20PGAdmin.gif?raw=true](https://github.com/alvarovianello/wa-lanchonete_clean_api/blob/main/Configurar%20Tabelas.gif?raw=true))
+![App Screenshot](https://github.com/alvarovianello/wa-lanchonete_clean_api/blob/main/Config%20PGAdmin.gif?raw=true)
 
 
 ## Documentação da API
