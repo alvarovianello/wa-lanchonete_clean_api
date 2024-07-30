@@ -2,6 +2,11 @@
 # Lanchonete - wa-lanchonete_clean_api
 
 API desenvolvida em **clean architecture** para atender as funcionalidades de uma lanchonete proposta como projeto da Pós Tech FIAP.
+
+## Youtube
+Vídeo explicando a arquitetura do nosso projeto usando os princípios da Clean Architecture
+https://youtu.be/rFIBIyeY8fY
+
 ## Stack utilizada
 
 **Back-end:** .NET 8, C#
