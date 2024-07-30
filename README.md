@@ -13,7 +13,7 @@ https://youtu.be/rFIBIyeY8fY
 
 **Banco de dados:** PostgresSQL
 
-## Gerenciador de Kluste
+## Gerenciador de cluster
 Docker Kubernetes
 
 ## Rodando Localmente
