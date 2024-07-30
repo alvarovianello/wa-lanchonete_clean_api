@@ -3,7 +3,8 @@
 
 API desenvolvida em **clean architecture** para atender as funcionalidades de uma lanchonete proposta como projeto da Pós Tech FIAP.
 
-##Problema Inicial do projeto
+## Problema Inicial do projeto
+
 O nosso projeto foi desenvolvido para resolver um problema recorrente na implementação de sistemas de lanchonetes: a gestão eficiente de pedidos. 
 Com o aumento de demandas de autoatendimentos de pedidos e a integração com diferentes sistemas de pagamento e entrega, a complexidade da aplicação cresceu exponencialmente. 
 Precisávamos desenvolver um sistema que resolvesse as nossas necessidades imediatas, mas que pudesse escalar para suprir demandas futuras. Portanto, para enfrentar esses desafios, optamos por integrar a Clean Architecture. A Clean Architecture é um modelo arquitetural que prioriza a separação de responsabilidades, alto grau de testabilidade e a independência de frameworks. As razões para a nossa escolha são as seguintes: Separação de Responsabilidades: com a Clean Architecture, podemos segmentar completamente a lógica de negócios, lógica da aplicação e responsabilidades de infraestrutura. Testabilidade: Fica mais fácil de testar; Independência de Frameworks: Isolar partes que dependam especificamente a frameworks de tecnologias, então não será necessário modificar o núcleo lógico inteiro. Muda de tecnologias ou de versões de bibliotecas não influenciando diretamente o núcleo da aplicação; Manutenção e escalabilidade: mantém manutenções no núcleo da aplicação e adição de novas funcionalidades sem muito alteração.
