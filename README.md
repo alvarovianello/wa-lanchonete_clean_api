@@ -37,9 +37,15 @@ Acesse no navegador http://localhost:5050/browser/
 - Usuário: admin@admin.com
 - Senha: admin
 
-Siga os passos do gif abaixo:
-![App Screenshot](https://raw.githubusercontent.com/WilliaMarques7/wa-lanchonete_api/main/Configurar%20PGADMIN.gif)
+Siga os passos do gif abaixo para configurar o Banco postgres no PGAdmin:
+![App Screenshot](https://github.com/alvarovianello/wa-lanchonete_clean_api/blob/main/Config%20PGAdmin.gif?raw=true)
 
+4º Passo: Configurando tabelas no banco de dados pelo PGAdmin.
+Ainda conectado no Pgadmin após configurado o Banco;
+ - Acesse a pasta WA.Persistence e copie o conteúdo do arquivo "DDL", no qual possui o script do banco de dados.
+
+Siga os passos do gif abaixo para executar o script copiado do arquivo "DDL":
+![App Screenshot]([https://github.com/alvarovianello/wa-lanchonete_clean_api/blob/main/Config%20PGAdmin.gif?raw=true](https://github.com/alvarovianello/wa-lanchonete_clean_api/blob/main/Configurar%20Tabelas.gif?raw=true))
 
 
 ## Documentação da API
