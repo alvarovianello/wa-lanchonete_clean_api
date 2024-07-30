@@ -12,6 +12,10 @@ https://youtu.be/rFIBIyeY8fY
 **Back-end:** .NET 8, C#
 
 **Banco de dados:** PostgresSQL
+
+## Gerenciador de Kluste
+Docker Kubernetes
+
 ## Rodando Localmente
 
 Instale o projeto wa-lanchonete_clean_api
