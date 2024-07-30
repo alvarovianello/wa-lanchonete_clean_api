@@ -34,6 +34,7 @@ Instale o projeto wa-lanchonete_clean_api
 - Pgadmin : gerenciador do banco de dados
 
 ```bash
+  kubectl apply -f components.yaml
   kubectl apply -f wa-lanchonete-configmap.yaml
   kubectl apply -f wa-lanchonete-pod.yaml
   kubectl apply -f wa-lanchonete-deployment.yaml
