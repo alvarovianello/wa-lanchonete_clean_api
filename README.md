@@ -9,20 +9,30 @@ API desenvolvida em **clean architecture** para atender as funcionalidades de um
 **Banco de dados:** PostgresSQL
 ## Rodando Localmente
 
-Instale o projeto wa-lanchonete_api
+Instale o projeto wa-lanchonete_clean_api
 
-1º Passo : Clone o projeto
+1º Passo : Clone o projeto em sua máquina
 
-2º Passo : Configurando projeto no Docker - acesse o terminal dentro da pasta onde o  projeto foi clonado e execute o comando abaixo para que seja configurado (docker precisa estar aberto)
+2º Passo : Configurando projeto no Kubernetes - acesse o terminal PowerShell dentro da pasta Kubernetes, localizado dentro de onde o projeto foi clonado e execute os comandos abaixo para que seja configurado (docker precisa estar aberto)
 - API
 - Banco de dados
 - Pgadmin : gerenciador do banco de dados
 
 ```bash
-  docker-compose up --build
+  kubectl apply -f wa-lanchonete-configmap.yaml
+  kubectl apply -f wa-lanchonete-pod.yaml
+  kubectl apply -f wa-lanchonete-deployment.yaml
+  kubectl apply -f wa-lanchonete-pvc.yaml
+  kubectl apply -f wa-lanchonete-hpa.yaml
+  kubectl apply -f wa-lanchonete-service.yaml
+  kubectl apply -f postgres-pvc.yaml
+  kubectl apply -f postgres-deployment.yaml
+  kubectl apply -f postgres-service.yaml
+  kubectl apply -f pgadmin-deployment.yaml
+  kubectl apply -f pgadmin-service.yaml
 ```
 
-3º Passo: **(OPCIONAL)** Configurando Pgadmin para visualização do banco de dados.
+3º Passo: Configurando Pgadmin para visualização do banco de dados.
 Acesse no navegador http://localhost:5050/browser/
 - Usuário: admin@admin.com
 - Senha: admin
