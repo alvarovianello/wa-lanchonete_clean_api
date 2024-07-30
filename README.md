@@ -59,10 +59,13 @@ Siga os passos do gif abaixo para executar o script copiado do arquivo "DDL":
 
 ## Documentação da API
 
+Você pode fazer o download da collection para configurar no Postman
+https://github.com/alvarovianello/wa-lanchonete_clean_api/blob/main/Lanchonete%20WA.postman_collection.json
+
 API foi configurada na porta 3001: http://localhost:3001/swagger/index.html
 
 Existe a própria documentação da API configurada no Swagger.
-Abaixo encontra-se, em ordem demonstrada no Swagger ao ser executada a API, a descrição detalhada de todos os endpoints.
+Abaixo encontra-se, em ordem demonstrada no Swagger ao ser executada a API, a descrição dos endpoints.
 ### **Category**
 - **Cadastrar categoria**
 
