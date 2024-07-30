@@ -51,7 +51,7 @@ CREATE TABLE dbo.Payment (
     id SERIAL PRIMARY KEY,
     order_id INT REFERENCES dbo.Orders(id),
     payment_method VARCHAR(50),
-    payment_status VARCHAR(50),
+    payment_status INT),
     payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	payment_date_processed TIMESTAMP,
 	in_store_order_id VARCHAR(500),
@@ -71,7 +71,9 @@ INSERT INTO dbo.Product (name, description, price, category_id) VALUES
 ('Sorvete', 'Casquinha de sorvete', 4.00, 4);
 
 INSERT INTO dbo.Customer (name, email, cpf) VALUES
-('Cliente Anônimo', '', '');
+('Cliente Anônimo', '', ''),
+('Álvaro da Silva Oliveira', 'alvaro@email.com', '86112631032'),
+('William Alves Marques', 'william@email.com', '91576385000');
 
 INSERT INTO dbo.Orders (customer_id, order_number, total_price, status, created_at) VALUES
 (1, '26368', 29, 'Recebido','2024-05-25 19:47:50.531376');
@@ -83,3 +85,6 @@ INSERT INTO dbo.OrderItem (order_id, product_id, quantity, price) VALUES
 
 INSERT INTO dbo.OrderStatus (order_id, status, updated_at) VALUES
 (1, 'Recebido', '2024-05-25 19:47:50.569727');
+
+INSERT INTO dbo.Payment (order_id, payment_method, payment_status, payment_date, payment_date_processed, in_store_order_id, qr_data) VALUES
+(1, 'Pix', 2, '2024-07-29 21:52:52.757', '2024-07-29 21:59:51.824', 'dc0c6362-b759-4988-9ed2-137b2db3d370', '00020101021243650016COM.MERCADOLIBRE020130636dc0c6362-b759-4988-9ed2-137b2db3d3705204000053039865802BR5921William Alves Marques6009SAO PAULO62070503***630468B1')
