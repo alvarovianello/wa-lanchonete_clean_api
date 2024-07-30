@@ -51,7 +51,7 @@ CREATE TABLE dbo.Payment (
     id SERIAL PRIMARY KEY,
     order_id INT REFERENCES dbo.Orders(id),
     payment_method VARCHAR(50),
-    payment_status INT),
+    payment_status INT,
     payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	payment_date_processed TIMESTAMP,
 	in_store_order_id VARCHAR(500),
